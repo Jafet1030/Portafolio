@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio Personal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "contentHeader">
+        <header>
+            <div class = "logo">
+                <a href = "#">Portafolio</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href = "#inicio" onclick="select()">INICIO</a></li>
+                    <li><a href = "#aboutme" onclick="select()">ABOUT ME</a></li>
+                    <li><a href = "#skills" onclick="select()">SKILLS</a></li>
+                    <li><a href = "#proyectos" onclick="select()">PROYECTOS</a></li>
+                    <li><a href = "#contact" onclick="select()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="showHideMenu( )">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <section  id="inicio" class="inicio">
+        <div class="content-banner">
+            <div class="content-img">
+                <img src="img/yop.png" alt="">
+            </div>
+            <h1>JAFET IBARRA</h1>
+            <h2>Ingeniero en Software</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/eduardojafet.ibarramaldonado/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://x.com/JafetEIM"><i class="fa-brands fa-x"></i></a>
+                <a href="https://www.instagram.com/jafet_iba/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Jafet1030"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="aboutme" class="aboutme">
+        <div class="content-aboutme">
+            <h2>SOBRE MI</h2>
+            
+            <p>
+                <span>Hola, soy Jafet Ibarra</span>
+                Soy un estudiante de Ingeniería en Software, me gusta aprender cosas nuevas y siempre estoy en constante aprendizaje.
+                Me gusta la programación en general, trabajar en equipo y siempre estoy dispuesto a ayudar a los demás.
+                También me encantan los videojuegos y soy muy competitivo.
+            </p>
+
+            <div class="sec-intereses">
+                <h3>Intereses</h3>
+                <div class="content-intereses">
+                    <div class="interes">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>VIDEOJUEGOS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <span>GIMNASIO</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-car"></i>
+                        <span>CARROS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-desktop"></i>
+                        <span>COMPUTADORAS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-microchip"></i>
+                        <span>TECNOLOGIA</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-futbol"></i>
+                        <span>DEPORTES</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-plane"></i>
+                        <span>VIAJAR</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-music"></i>
+                        <span>MUSICA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="content-skills">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso ">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <!--<i class="fa-brands fa-html5"></i>-->
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>79%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C#</span>
+                        <!--<i class="fa-brands fa-csharp"></i>-->
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <!--<i class="fa-brands fa-python"></i>-->
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>91%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <!--<i class="fa-brands fa-react"></i>-->
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL</span>
+                        <!--<i class="fa-brands fa-database"></i> -->
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Organización</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Languages</h3>
+                    <div class="skill">
+                        <span>Español</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ingles</span>
+                        <!--<i class="fa-brands fa-html5"></i>-->
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Portugues</span>
+                        <!--<i class="fa-brands fa-csharp"></i>-->
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>20%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="proyectos">
+        <div class="content-proyectos">
+            <h2>Proyectos</h2>
+            <div class="galeria">
+                <a href="https://github.com/Jafet1030/FIVT" target="_blank" class="proyecto">
+                    <img src="img/FIVT.jpeg" alt="FIVT">
+                    <div class="overlay">
+                        <h3>FIVT</h3>
+                        <p>Diseño de una inmobiliaria</p>
+                    </div>
+                </a>
+                <div class="proyecto">
+                    <img src="img/figma.png" alt="">
+                    <div class="overlay">
+                        <h3>Shoes.com</h3>
+                        <p>Rediseño de shoes.com</p>
+                    </div>
+                </div>
+                <a href="https://github.com/Jafet1030/Covid" target="_blank" class="proyecto">
+                    <img src="img/casosCovid.png" alt="">
+                    <div class="overlay">
+                        <h3>COVID</h3>
+                        <p>Predicciones de casos de COVID 2022</p>
+                    </div>
+                </a>
+                <div class="proyecto">
+                    <img src="img/XPENDTIT.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>XPENDT IT</h3>
+                        <p>Diseño de Supermercado</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/framework.png" alt="">
+                    <div class="overlay">
+                        <h3>Comal++</h3>
+                        <p>Diseño de pagina del Comal++</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Cajero.png" alt="">
+                    <div class="overlay">
+                        <h3>ATM</h3>
+                        <p>Creacion de ATM sin usar BD</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="content-contact">
+            <div class="contact-left">
+                <h1 class="sub-title">Contactame</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>jmm.jafet.10@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>311 121 3053</p>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Tu nombre" required>
+                    <input type="email"  name="email" placeholder="Tu email" required>
+                    <textarea name="Message" rows="6" placeholder="Tu mensaje"></textarea>
+                    <button type="submit" class="btnConfirmar">Confirmar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="social">
+            <a href="https://www.facebook.com/eduardojafet.ibarramaldonado/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://x.com/JafetEIM"><i class="fa-brands fa-x"></i></a>
+            <a href="https://www.instagram.com/jafet_iba/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/Jafet1030"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
